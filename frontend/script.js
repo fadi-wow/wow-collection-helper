@@ -6,7 +6,7 @@
 // Przykłady:
 // - Lokalnie podczas developmentu: http://localhost:3000/api/guide
 // - Po wystawieniu na Render/Railway: https://twoj-backend.render.com/api/guide
-const API_URL = 'http://localhost:3000/api/guide';
+const API_URL = 'https://wow-collection-helper.onrender.com/api/guide';
 
 // ===========================
 // DOM ELEMENTS
