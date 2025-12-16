@@ -5,7 +5,8 @@
 
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
+require('dotenv').config(); // czytaj z .env w bieżącym katalogu
+require('dotenv').config({ path: '/etc/secrets/.env' }); // czytaj z /etc/secrets/.env i nadpisz wartości
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const {
